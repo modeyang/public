@@ -4,7 +4,7 @@
     <date>2013-12-23T12:21:47Z</date>
     <groups>
         <group>
-            <name>Templates</name>
+            <name>Templates-APP Basic</name>
         </group>
     </groups>
     <templates>
@@ -13,7 +13,7 @@
             <name>Template PfSense 2.1</name>
             <groups>
                 <group>
-                    <name>Templates</name>
+                    <name>Templates-APP Basic</name>
                 </group>
             </groups>
             <applications>
@@ -68,8 +68,8 @@
                     <multiplier>1</multiplier>
                     <snmp_oid>HOST-RESOURCES-MIB::hrMemorySize.0</snmp_oid>
                     <key>hrMemorySize</key>
-                    <delay>30</delay>
-                    <history>30</history>
+                    <delay>60</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -110,8 +110,8 @@
                     <multiplier>1</multiplier>
                     <snmp_oid>hrStorageEntry.hrStorageUsed.1</snmp_oid>
                     <key>hrMemoryUsed</key>
-                    <delay>30</delay>
-                    <history>30</history>
+                    <delay>60</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -153,7 +153,7 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrProcessorLoad.7</snmp_oid>
                     <key>hrProcessorLoad</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -194,8 +194,8 @@
                     <multiplier>1</multiplier>
                     <snmp_oid>HOST-RESOURCES-MIB::hrStorageSize.3</snmp_oid>
                     <key>hrSwapSize</key>
-                    <delay>30</delay>
-                    <history>30</history>
+                    <delay>60</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -236,8 +236,8 @@
                     <multiplier>1</multiplier>
                     <snmp_oid>HOST-RESOURCES-MIB::hrStorageUsed.3</snmp_oid>
                     <key>hrSwapUsed</key>
-                    <delay>30</delay>
-                    <history>30</history>
+                    <delay>60</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -279,7 +279,7 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrSystemMaxProcesses.0</snmp_oid>
                     <key>hrSystemMaxProcesses</key>
                     <delay>3600</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -321,7 +321,7 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrSystemNumUsers.0</snmp_oid>
                     <key>hrSystemNumUsers</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -363,7 +363,7 @@
                     <snmp_oid>HOST-RESOURCES-MIB::hrSystemProcesses.0</snmp_oid>
                     <key>hrSystemProcesses</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -405,7 +405,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.2.0</snmp_oid>
                     <key>pfCounterBadOffset</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -447,7 +447,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.3.0</snmp_oid>
                     <key>pfCounterFragment</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -489,7 +489,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.1.0</snmp_oid>
                     <key>pfCounterMatch</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -531,7 +531,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.6.0</snmp_oid>
                     <key>pfCounterMemDrop</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -573,7 +573,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.5.0</snmp_oid>
                     <key>pfCounterNormalize</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -615,7 +615,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.2.4.0</snmp_oid>
                     <key>pfCounterShort</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -657,7 +657,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.5.3.0</snmp_oid>
                     <key>pfLimitsFrags</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -699,7 +699,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.5.2.0</snmp_oid>
                     <key>pfLimitsSrcNodes</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -741,7 +741,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.5.1.0</snmp_oid>
                     <key>pfLimitsStates</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -783,7 +783,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.2.0</snmp_oid>
                     <key>pfLogInterfaceIp4BytesIn</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -825,7 +825,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.3.0</snmp_oid>
                     <key>pfLogInterfaceIp4BytesOut</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -867,7 +867,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.5.0</snmp_oid>
                     <key>pfLogInterfaceIp4PktsInDrop</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -909,7 +909,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.4.0</snmp_oid>
                     <key>pfLogInterfaceIp4PktsInPass</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -951,7 +951,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.7.0</snmp_oid>
                     <key>pfLogInterfaceIp4PktsOutDrop</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -993,7 +993,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.7.6.0</snmp_oid>
                     <key>pfLogInterfaceIp4PktsOutPass</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1077,7 +1077,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.3.1.0</snmp_oid>
                     <key>pfStateTableCount</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1119,7 +1119,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.3.3.0</snmp_oid>
                     <key>pfStateTableInserts</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1161,7 +1161,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.3.4.0</snmp_oid>
                     <key>pfStateTableRemovals</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1203,7 +1203,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.3.2.0</snmp_oid>
                     <key>pfStateTableSearches</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1244,7 +1244,7 @@
                     <multiplier>0</multiplier>
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.1.1.0</snmp_oid>
                     <key>pfStatusRunning</key>
-                    <delay>300</delay>
+                    <delay>600</delay>
                     <history>365</history>
                     <trends>365</trends>
                     <status>0</status>
@@ -1331,7 +1331,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.9.1.0</snmp_oid>
                     <key>pfTablesTblNumber</key>
                     <delay>86400</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1373,7 +1373,7 @@
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.9.2.1.3[&quot;index&quot;,&quot;1.3.6.1.4.1.12325.1.200.1.9.2.1.2&quot;,&quot;sshlockout&quot;]</snmp_oid>
                     <key>pfTablesTblSSHlockoutCount</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1417,7 +1417,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.18.0</snmp_oid>
                     <key>pfTimeoutsAdaptiveEnd</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1459,7 +1459,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.17.0</snmp_oid>
                     <key>pfTimeoutsAdaptiveStart</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1501,7 +1501,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.15.0</snmp_oid>
                     <key>pfTimeoutsFragment</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1543,7 +1543,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.11.0</snmp_oid>
                     <key>pfTimeoutsIcmpError</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1585,7 +1585,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.10.0</snmp_oid>
                     <key>pfTimeoutsIcmpFirst</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1627,7 +1627,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.16.0</snmp_oid>
                     <key>pfTimeoutsInterval</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1669,7 +1669,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.12.0</snmp_oid>
                     <key>pfTimeoutsOtherFirst</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1711,7 +1711,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.14.0</snmp_oid>
                     <key>pfTimeoutsOtherMultiple</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1753,7 +1753,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.13.0</snmp_oid>
                     <key>pfTimeoutsOtherSingle</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1795,7 +1795,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.19.0</snmp_oid>
                     <key>pfTimeoutsSrcNode</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1837,7 +1837,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.6.0</snmp_oid>
                     <key>pfTimeoutsTcpClosed</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1879,7 +1879,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.4.0</snmp_oid>
                     <key>pfTimeoutsTcpClosing</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1921,7 +1921,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.3.0</snmp_oid>
                     <key>pfTimeoutsTcpEstablished</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -1963,7 +1963,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.5.0</snmp_oid>
                     <key>pfTimeoutsTcpFinWait</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2005,7 +2005,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.1.0</snmp_oid>
                     <key>pfTimeoutsTcpFirst</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2047,7 +2047,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.2.0</snmp_oid>
                     <key>pfTimeoutsTcpOpening</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2089,7 +2089,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.7.0</snmp_oid>
                     <key>pfTimeoutsUdpFirst</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2131,7 +2131,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.9.0</snmp_oid>
                     <key>pfTimeoutsUdpMultiple</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2173,7 +2173,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.6.8.0</snmp_oid>
                     <key>pfTimeoutsUdpSingle</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2214,8 +2214,8 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <multiplier>0</multiplier>
                     <snmp_oid>SNMPv2-MIB::sysContact.0</snmp_oid>
                     <key>sysContact</key>
-                    <delay>300</delay>
-                    <history>30</history>
+                    <delay>600</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>1</value_type>
@@ -2256,8 +2256,8 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <multiplier>0</multiplier>
                     <snmp_oid>SNMPv2-MIB::sysDescr.0</snmp_oid>
                     <key>SysDescr</key>
-                    <delay>300</delay>
-                    <history>30</history>
+                    <delay>600</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>1</value_type>
@@ -2298,8 +2298,8 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <multiplier>0</multiplier>
                     <snmp_oid>SNMPv2-MIB::sysLocation.0</snmp_oid>
                     <key>sysLocation</key>
-                    <delay>300</delay>
-                    <history>30</history>
+                    <delay>600</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>1</value_type>
@@ -2340,8 +2340,8 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <multiplier>0</multiplier>
                     <snmp_oid>SNMPv2-MIB::sysName.0</snmp_oid>
                     <key>sysName</key>
-                    <delay>300</delay>
-                    <history>30</history>
+                    <delay>600</delay>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>1</value_type>
@@ -2383,7 +2383,7 @@ This table can indicate that someone is trying to force SSH authentication.</des
                     <snmp_oid>HOST-RESOURCES-MIB::hrSystemUptime.0</snmp_oid>
                     <key>sysUptime</key>
                     <delay>60</delay>
-                    <history>30</history>
+                    <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>3</value_type>
@@ -2429,7 +2429,7 @@ portion of the system.</description>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>HOST-RESOURCES-MIB::hrStorageDescr</snmp_oid>
                     <key>hrStorageDescr</key>
-                    <delay>300</delay>
+                    <delay>600</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -2461,8 +2461,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>HOST-RESOURCES-MIB::hrStorageDescr.{#SNMPINDEX}</snmp_oid>
                             <key>hrStorageDescr[{#SNMPVALUE}]</key>
-                            <delay>300</delay>
-                            <history>30</history>
+                            <delay>600</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>1</value_type>
@@ -2503,7 +2503,7 @@ portion of the system.</description>
                             <multiplier>1</multiplier>
                             <snmp_oid>HOST-RESOURCES-MIB::hrStorageSize.{#SNMPINDEX}</snmp_oid>
                             <key>hrStorageSize[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
+                            <delay>60</delay>
                             <history>90</history>
                             <trends>365</trends>
                             <status>0</status>
@@ -2545,8 +2545,8 @@ portion of the system.</description>
                             <multiplier>1</multiplier>
                             <snmp_oid>HOST-RESOURCES-MIB::hrStorageUsed.{#SNMPINDEX}</snmp_oid>
                             <key>hrStorageUsed[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2636,7 +2636,7 @@ portion of the system.</description>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>IF-MIB::ifDescr</snmp_oid>
                     <key>ifDescr</key>
-                    <delay>300</delay>
+                    <delay>600</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -2668,8 +2668,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>IF-MIB::ifAdminStatus.{#SNMPINDEX}</snmp_oid>
                             <key>ifAdminStatus[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2712,8 +2712,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>IF-MIB::ifAlias.{#SNMPINDEX}</snmp_oid>
                             <key>ifAlias[{#SNMPVALUE}]</key>
-                            <delay>300</delay>
-                            <history>30</history>
+                            <delay>600</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>1</value_type>
@@ -2754,8 +2754,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>IF-MIB::ifDescr.{#SNMPINDEX}</snmp_oid>
                             <key>ifDescr[{#SNMPVALUE}]</key>
-                            <delay>300</delay>
-                            <history>30</history>
+                            <delay>600</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>1</value_type>
@@ -2797,7 +2797,7 @@ portion of the system.</description>
                             <snmp_oid>IF-MIB::ifInErrors.{#SNMPINDEX}</snmp_oid>
                             <key>ifInErrors[{#SNMPVALUE}]</key>
                             <delay>60</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2841,7 +2841,7 @@ portion of the system.</description>
                             <snmp_oid>IF-MIB::ifInOctets.{#SNMPINDEX}</snmp_oid>
                             <key>ifInOctets[{#SNMPVALUE}]</key>
                             <delay>60</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2884,8 +2884,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>IF-MIB::ifOperStatus.{#SNMPINDEX}</snmp_oid>
                             <key>ifOperStatus[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2927,7 +2927,7 @@ portion of the system.</description>
                             <snmp_oid>IF-MIB::ifOutErrors.{#SNMPINDEX}</snmp_oid>
                             <key>ifOutErrors[{#SNMPVALUE}]</key>
                             <delay>60</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -2971,7 +2971,7 @@ portion of the system.</description>
                             <snmp_oid>IF-MIB::ifOutOctets.{#SNMPINDEX}</snmp_oid>
                             <key>ifOutOctets[{#SNMPVALUE}]</key>
                             <delay>60</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3014,8 +3014,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>IF-MIB::ifPhysAddress.{#SNMPINDEX}</snmp_oid>
                             <key>ifPhysAddress[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>1</value_type>
@@ -3105,7 +3105,7 @@ portion of the system.</description>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.2</snmp_oid>
                     <key>pfInterfaces4Descr</key>
-                    <delay>300</delay>
+                    <delay>600</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
@@ -3135,8 +3135,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.8.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4BytesInBlock[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3177,8 +3177,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.7.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4BytesInPass[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3219,8 +3219,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.10.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4BytesOutBlock[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3261,8 +3261,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.9.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4BytesOutPass[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3303,8 +3303,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.12.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4PktsInBlock[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3345,8 +3345,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.11.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4PktsInPass[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3387,8 +3387,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.14.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4PktsOutBlock[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3429,8 +3429,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.13.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfaces4PktsOutPass[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3471,8 +3471,8 @@ portion of the system.</description>
                             <multiplier>0</multiplier>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.2.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfacesDesc[{#SNMPVALUE}]</key>
-                            <delay>30</delay>
-                            <history>30</history>
+                            <delay>60</delay>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>1</value_type>
@@ -3514,7 +3514,7 @@ portion of the system.</description>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.6.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfacesRefsRule[{#SNMPVALUE}]</key>
                             <delay>3600</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -3556,7 +3556,7 @@ portion of the system.</description>
                             <snmp_oid>1.3.6.1.4.1.12325.1.200.1.8.2.1.5.{#SNMPINDEX}</snmp_oid>
                             <key>pfInterfacesRefsState[{#SNMPVALUE}]</key>
                             <delay>60</delay>
-                            <history>30</history>
+                            <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
